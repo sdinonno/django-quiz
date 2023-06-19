@@ -1,3 +1,3 @@
 # django-quiz
 
-A Quiz app build with Django & Python
+A Quiz app build with Python & Django
