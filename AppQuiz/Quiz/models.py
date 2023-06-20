@@ -9,6 +9,7 @@ class Question(models.Model):
     
 
 class ChooseAnswer(models.Model):
+    MAX_ANSWERS = 3
 
     question = models.ForeignKey(Question, related_name='questions', on_delete=models.CASCADE)
     correct_asnwer = models.BooleanField(verbose_name='Is it the correct answer?', default=False, null=False)
